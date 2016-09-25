@@ -234,8 +234,59 @@ figure .type {
     text-align: center;
     background-color: #59b200;
     position: absolute;
-    top:8px;
+    top: 8px;
     left: 8px;
     /*border-top-left-radius: 5px;*/
+}
 
+
+/*footer section*/
+
+footer {
+    background-color: #000;
+    color: #999;
+    width: 100%;
+}
+
+footer .footer-top {
+    width: 1923px;
+    height: 280px;
+    margin: 0 auto;
+    /*border: 1px solid #fff;*/
+    text-align: center;
+}
+
+footer .footer-col {
+    width: 635px;
+    height: 280px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+footer .footer-col h2 {
+    font-size: 1.5em;
+    font-style: normal;
+    padding: 20px 0 0 20px;
+}
+
+footer .footer-col hr {
+    border: 1px dashed #333;
+    width: 95%;
+}
+
+footer .footer-col ul {
+    font-size: 1.1em;
+    color: #777;
+    text-indent: 1em;
+    line-height: 2em;
+}
+
+footer .footer-bottom {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #777;
+    background-color: #000;
+    border-top: 1px solid #444;
 }
