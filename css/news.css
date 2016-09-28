@@ -20,32 +20,124 @@
 }
 
 #news-header h2 {
-    font-size:3em;
+    font-size: 3em;
     word-spacing: 2px;
     color: #fff;
 }
 
 #news-header h3 {
-    font-size:1.3em;
+    font-size: 1.3em;
     word-spacing: 1px;
     color: #fff;
 }
-
 
 #news-contanier {
     width: 1923px;
     margin: 0 auto;
 }
 
-#news-contanier .sidebar{
+#news-contanier .sidebar {
     width: 570px;
-    float: left;
-    background-color: #eee;
+    float: right;
 }
 
-#news-contanier .list{
+.sidebar .sidebox {
+    border: 1px solid #eee;
+    margin: 0 0 10px 0;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
+    height: 40px;
+    background-color: #fafafa;
+    color: #666;
+}
+
+.sidebar .tag {
+    padding: 10px 0;
+}
+
+.sidebar .tag a {
+    display: inline-block;
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    margin: 2px 0;
+    background-color: #eee;
+    color: #999;
+    text-indent: 8px;
+}
+
+.sidebar .tag a:hover {
+    background-color: #458b00;
+    color: #fff;
+}
+
+.sidebar figure {
+    display: inline-block;
+    padding: 4px;
+    color: #666;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.sidebar .link-box a {
+    display: inline-block;
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    margin: 2px 0;
+    background-color: #eee;
+    color: #999;
+    text-indent: 35px;
+}
+
+.sidebar .link-box a {
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 8px;
+}
+
+.sidebar .link-box a.train {
+    background-image: url(../img/icon-train.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 8px;
+}
+
+.sidebar .link-box a.plane {
+    background-image: url(../img/icon-plane.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 8px;
+}
+
+.sidebar .link-box a.hotel {
+    background-image: url(../img/icon-hotel.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 8px;
+}
+
+.sidebar .link-box a.boat {
+    background-image: url(../img/icon-boat.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 8px;
+}
+
+.sidebar .link-box a.wheather {
+    background-image: url(../img/icon-wheather.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 8px;
+}
+
+#news-contanier .list {
     width: 1344px;
-    float: right;
+    float: left;
     background-color: #999;
 }
-
